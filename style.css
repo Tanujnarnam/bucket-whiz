@@ -1,0 +1,87 @@
+/*General*/
+body{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+a:visited{
+  color: none;
+}
+
+/*Nav Bar*/
+.container{
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+/*Styling for Header*/
+header{
+  color:white;
+  background-color: teal;
+  border-bottom: 0.1px white solid;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: sticky; top: 0;
+}
+
+/*fixes issue with 2 floating objects in opposite directions*/
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/*Placing elements of header in right spots*/
+.name{
+  padding-left: 5%;
+  float: left;
+}
+nav{
+  float: right;
+  padding-right: 5%;
+  margin: 9.5px 0;
+}
+
+/*Rid of Bullet Points*/
+nav ul{
+  list-style-type: none;
+}
+
+/*List element styling*/
+nav li{
+  display:inline;
+  color: white;
+  padding: 0 10px;
+}
+
+/*Styling of Anchors*/
+nav a{
+  color: white;
+  text-decoration: none;
+}
+
+/*Hovering Effects*/
+nav a:hover{
+  text-decoration: underline;
+}
+
+/*Home*/
+.home{
+  font-family: 'Dela Gothic One', sans-serif;
+}
+
+.home h1{
+  color:white;
+  font-family: 'Dela Gothic One', sans-serif;
+  text-shadow: 0.2em 0.1em 0px rgba(0,128,128,0.8);
+}
+
+.home h2{
+  color:white;
+  font-family: 'Dela Gothic One', sans-serif;
+  text-shadow: 0.2em 0.1em 0px rgba(0,128,128,0.8);
+}
+
+
+
