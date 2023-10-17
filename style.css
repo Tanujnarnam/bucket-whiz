@@ -18,9 +18,7 @@ a:visited{
 
 /*Styling for Header*/
 header{
-  color:white;
   background-color: teal;
-  border-bottom: 0.1px white solid;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   position: sticky; top: 0;
 }
@@ -51,7 +49,6 @@ nav ul{
 /*List element styling*/
 nav li{
   display:inline;
-  color: white;
   padding: 0 10px;
 }
 
