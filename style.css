@@ -1,102 +1,66 @@
-/*General*/
 body{
-  background-color: black;
-  color:white;
-  margin: 0;
-  padding: 0;
+  background-color: #767B91;
 }
 
-a:visited{
-  color: none;
-}
 
-/*Nav Bar*/
-.container{
-  width: 80%;
-  margin: 0;
-  padding: 0;
-}
-
-/*Styling for Header*/
 header{
-  background-color: teal;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  position: sticky; top: 0;
-  border-bottom: solid 1px antiquewhite;
-}
-
-/*fixes issue with 2 floating objects in opposite directions*/
-header::after{
-  content: '';
-  display: table;
-  clear: both;
-}
-
-/*Placing elements of header in right spots*/
-.name{
-  padding-left: 5vw;
-  float: left;
-}
-nav{
-  float: right;
-  padding-right: 5vw;
-  margin: 9.5px 0;
-}
-
-/*Rid of Bullet Points*/
-nav ul{
-  list-style-type: none;
-}
-
-/*List element styling*/
-nav li{
-  display:inline;
-  padding: 0 10px;
-}
-
-/*Styling of Anchors*/
-nav a{
-  color: white;
-  text-decoration: none;
-}
-
-/*Hovering Effects*/
-nav a:hover{
-  text-decoration: underline;
-}
-
-/*Home*/
-.home{
-  margin: 10vw 0;
-}
-
-.hello{
-  font-family: "Dela Gothic One", sans-serif;
-  text-align: center;
-  font-size: 11vw;
-  text-shadow: rgba(0, 128, 128, 0.8) 0.075em 0.075em 0px;
-}
-
-.about-me{
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 2vw;
-  text-align: center;
-}
-
-.projects{
+  padding: 0;
   margin: 0;
-  padding: 0;
-  border-top: solid 1px antiquewhite;
-  background-color: teal;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  font-weight: bolder;
-  font-size: 2vw;
+  text-align: center;
+  color: #2A324B;
+  font-size: 45px;
+  font-family: 'Alumni Sans Inline One', sans-serif;
 }
 
-.projects ul{
-  padding: 0;
-  list-style-type: none;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.search-name{
+  color:#2A324B;
+  background-color: #C7CCDB;
+  width: 50%;
+  height: 30px;
+  font-size: 20px;
   text-align: center;
+  border-radius: 10px;
+  border: #E1E5EE;
+}
+
+.root{
+  padding: 0;
+  margin: 0;
+}
+
+table{
+  padding: 0;
+  margin: 0;
+  width:85%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table,td{
+  border: 1px solid #2A324B;
+  border-collapse: collapse;
+}
+
+th{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th{
+  background-color: #2A324B;
+  color:white;
+  padding: 1vw;
+}
+
+tr:nth-child(odd){
+  background-color: #C7CCDB;
+}
+
+tr:nth-child(even){
+  background-color: #E1E5EE;
+}
+
+tr:hover{
+  background-color: rgba(255,255,255,0.2);
 }
